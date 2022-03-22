@@ -18,8 +18,8 @@ Clonar o descargar projecto desde GitHub
 
 ## Construido con 🛠️
 * Visual Studio Code 
-* CSS *
-* HTMl5 *
+* CSS 
+* HTMl5 
 
 ## Contribuyendo 🖇️
 Por favor lee el [CONTRIBUTING.md](https://gist.github.com/susana/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
