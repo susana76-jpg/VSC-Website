@@ -3,7 +3,9 @@
 Web Personal - Reto 1 - GeekHubs
 
 ## Comenzando 🚀
-Este es el primer reto del curso BTC-FrontEnd Angular desde el centro GiksHubs Academy
+Este es el primer reto del curso BTC-FrontEnd Angular desde el centro GiksHubs Academy.
+
+Es el proyecto de una Web Personal e incluye, un proyecto de negocio de agencia de grandes viajes.
 
 
 ### Pre-requisitos 📋
@@ -37,6 +39,7 @@ Este proyecto está bajo la Licencia (Tu Licencia). Ponte en contacto con el aut
 
 
 * Web Personal en desarrollo!!!! 📢 
-* Invitación 🍺 y gratitud 🎁 a todo aquel que quiera colaborar y dar ideas en el proyecto. *
+* Invitación 🍺 y gratitud 🎁 a todo aquel que quiera colaborar y dar ideas en el proyecto. 
+
 * Muchas gracias por la visita!!!!!!🤓. 
 
