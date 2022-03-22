@@ -1,0 +1,162 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: font-family: "Lucida Sans", sans-serif;
+    background-image: url(../img/background/amarillo.PNG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #f1f1f1;
+    opacity: 45%;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  /* Container for flexboxes */
+  .row {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    opacity: 75%;
+    height: 500px; /* Should be removed. Only for demonstration */
+    width: 300px;
+    color: rgb(14, 71, 73);
+    border-radius: 25px;
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 5px; 
+  }
+
+  h3,h2,h1{
+      text-align: center;
+      color: black;
+  }
+
+  ul {
+      list-style-type: square;
+  }
+  a {
+      text-decoration: none;
+  }
+  a:hover{
+      background-color: grey;
+      text-decoration: none;
+
+  }
+  .detalleHello{
+    text-align: center;
+    color: black;
+}
+  .detalle{
+      text-align: justify;
+      color: black;
+  }
+
+  .social1{
+    text-align: justify;
+    width: 80%;
+    color: black;
+    float: left;
+}
+
+.social2{
+  text-align: justify;
+  width: 60%;
+  bottom: 1000px;
+  color: black;
+  float: right;
+  
+}
+
+
+  
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    opacity: 45%;
+    margin: 10px;
+    border-radius: 20px;
+  }
+  .footer table{
+      width: 100%;
+  }
+
+  td {
+    text-align: center;
+    font-size: 12px;
+    text-align: left;
+    }
+
+
+  img {
+    width: 20%;
+    margin: 5px;
+    height: auto;
+    display:inline-table;
+
+  }
+  img:hover{
+    transform: scale(0.9);
+    transition: all 3s ease;
+    border-radius: 100px;
+}
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	right: 0; /* Establecemos la barra en la izquierda */
+	top: 300px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+        padding: 10px 15px;
+        margin-right: 50px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    }
+ 
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
