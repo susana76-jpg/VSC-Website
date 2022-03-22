@@ -1,0 +1,54 @@
+
+body{
+    /*background-color:#eef0e8;*/
+    background-image: url(../img/background/viajes.JPG);
+    opacity: 95%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+header {
+    background-color: rgb(139, 136, 132);
+    border-radius: 20px;
+    opacity: 80%;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(230, 225, 164);
+  }
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */  
+}
+nav {
+    float: left;
+    margin-left: 5pt;
+    margin-top: 30pt;
+    width: 15%;
+    height: 70px;
+    background: rgb(220, 233, 162);
+    padding: 25px;
+  }
+
+.formulario{
+    
+    padding: 20pt;
+    margin-left: 200pt;
+    height: 100px;
+    width: 70%;
+}
+
+.legend_1{
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.legend_2{
+    font-size: 25px;
+    font-family: serif;
+}

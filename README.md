@@ -15,9 +15,9 @@ Clonar o descargar projecto desde GitHub
 
 
 ## Construido con 🛠️
-* Visual Studio Code
-* CSS
-* HTMl5
+* Visual Studio Code *
+* CSS *
+* HTMl5 *
 
 ## Contribuyendo 🖇️
 Por favor lee el [CONTRIBUTING.md](https://gist.github.com/susana/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
@@ -29,17 +29,14 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra mi GitHub
 Usa GitHub como repositorio de versiones.
 
 ## Autores ✒️
-* **Susana R. V.** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
+* **Susana R. V.** - *Trabajo Inicial* - 
  
 
 ## Licencia 📄
 Este proyecto está bajo la Licencia (Tu Licencia). Ponte en contacto con el autor para más detalles
 
 
-* Web Personal en desarrollo!!!! 📢
-* Invitación 🍺 y gratitud 🎁 a todo aquel que quiera colaborar y dar ideas en el proyecto. 
-* Muchas gracias por la visita!!!!!!🤓.
+* Web Personal en desarrollo!!!! 📢 *
+* Invitación 🍺 y gratitud 🎁 a todo aquel que quiera colaborar y dar ideas en el proyecto. *
+* Muchas gracias por la visita!!!!!!🤓. *
 
-
-⌨️ con ❤️ por SRV 😊
-=======

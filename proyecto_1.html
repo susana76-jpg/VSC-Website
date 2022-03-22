@@ -1,0 +1,114 @@
+<!DOCTYPE html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <title>FormularioDeEntrada</title>
+</head>
+<body>
+    <header>
+        <h2>Proyecto de reserva on line de grandes viajes.</h2>
+      </header>
+    
+<form action="agencia" method="post">
+    <!--selector de destino-->  
+    <nav>
+        <fieldset>
+        <legend><b>Escoja un destino:</b></legend>
+            <select name="destino">
+                <option name="vacio">- Escoja un destino -</option>
+                <option name="islandia">CUEVA GRJÓTAGJÁ, ISLANDIA.</option>
+                <option name="panama">ISLAS SAN BLAS – PANAMA</option>
+                <option name="argentina">PERITO MORENO, ARGENTINA</option>
+                <option name="namivia">EL PANTANO MUERTO, NAMIBIA</option>
+                <option name="japon">SAGANO ARASHIYAMA, JAPÓN</option>   
+            </select>
+        </fieldset>    
+    </nav>
+    
+    
+    <div class="formulario">   
+        <fieldset>
+            <legend class="legend_1">Por favor, cumplimente los datos:</legend> 
+                
+                <!--datos de la persona que reserva-->
+                <fieldset>
+                    <legend class="legend_2">Datos de la persona que reserva:</legend> 
+                    <p>
+                        <label for="lnombre"><b>Nombre:</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+                        <input type="text" name="Nombre"size="30" maxlengh="20" placeholder="Nombre" required></input>
+                    </p>
+                    <p>
+                        <label for="lapellidos"><b>Apellidos:</b></label>&nbsp;&nbsp;&nbsp;  
+                        <input type="text" name="Apellidos"size="30" maxlengh="20" placeholder="Apellidos" required></input>
+                    </p>
+                    <p>
+                        <label for="ltelefono"><b>Teléfono:</b></label>&nbsp;&nbsp;&nbsp;&nbsp;   
+                        <input type="tel" name="Nombre"size="30" maxlengh="20" placeholder="Teléfono" required></input>
+                    </p>
+                    <p>
+                        <label for="lemail"><b>E-mail:</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+                        <input type="email" name="Email"size="30" maxlengh="20" placeholder="e-mail" required></input>
+                    </p>
+                    
+                </fieldset>
+                <br/>
+
+                <fieldset>
+                <legend class="legend_2">Datos de  la estancia:</legend> 
+                
+                    <!--fechas: número de noches de estancia-->
+                    &nbsp;&nbsp;<label for="lfechaIni"><b>Fecha entrada</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;<label for="lfechaFin"><b>Fecha salida</b></label>
+                    <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<input type="date" id="fecha_ini" name="fecha_ini"
+                    value="2020-11-01"
+                    min="2020-11-01" max="2022-12-31">&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <input type="date" id="fecha_fin" name="fecha_fin"
+                    value="2020-11-01"
+                    min="2020-11-01" max="2022-12-31">
+                    </br></br>
+                    <!--tipo de habitación-->    
+                    <p>
+                        &nbsp;<label for="tipoHabitacion"><b>Tipo de habitación:</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="habitacion" value="individual"> Habitación individual&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="habitacion" value="doble"> Habitación doble<br>
+                    </p>
+                    
+                    <!--check box para más datos de solicitud-->
+                    <p>
+                        &nbsp;&nbsp;<b>Más opciones:</b></br>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="desayuno" value="desayuno"> Sólo desayuno<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="comida" value="comida"> Media pensión<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="cena" value="cena"> Pensión completa<br>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="cama" value="cama">Cama supletoria
+
+                    </p>
+            
+                </fieldset>
+
+                <fieldset>
+                    <legend class="legend_2">Comentarios adicionales:</legend>
+                    <textarea name="comentarios" rows="3" cols="50"></textarea>
+                </fieldset>
+                <br/>
+                    <input type="submit"  value="Enviar formulario">
+                    &nbsp;<input type="reset"  value="Limpiar formulario">
+           
+                    
+            
+        </fieldset>
+
+       
+    </div>
+    
+
+    </div>
+</form>
+
+</body>
+</html>

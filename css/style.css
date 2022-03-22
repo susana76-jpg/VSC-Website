@@ -68,21 +68,15 @@
       color: black;
   }
 
-  .social1{
+  .links1{
     text-align: justify;
-    width: 80%;
+    width: 70%;
+    padding: 10px;
     color: black;
     float: left;
 }
 
-.social2{
-  text-align: justify;
-  width: 60%;
-  bottom: 1000px;
-  color: black;
-  float: right;
-  
-}
+
 
 
   
@@ -99,10 +93,9 @@
       width: 100%;
   }
 
-  td {
+  .footer table td {
     text-align: center;
     font-size: 12px;
-    text-align: left;
     }
 
 
@@ -119,40 +112,51 @@
     border-radius: 100px;
 }
 
-.social {
-	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
-	right: 0; /* Establecemos la barra en la izquierda */
-	top: 300px; /* Bajamos la barra 200px de arriba a abajo */
-	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+ .social{
+   position: fixed;
+   right: 12px;
+   top: 320px;
+   z-index: 2000;
+ }
+
+ .social ul{
+   list-style: none;
+ }
+
+ .social ul li a{
+   display: inline-block;
+   color:blanchedalmond;
+   background: black;
+   padding: 10px 15px;
+   text-decoration: none;
+   -webkit-transition: all 500ms ease;
+   -o-transition: all 500ms ease;
+   transition: all 500ms ease;
+ }
+
+ .social ul li .icon-facebook2 {
+    background: rgb(6, 6, 248);
+ }
+ .social ul li .icon-twitter {
+  background: #00abf0;
+}
+.social ul li .icon-linkedin {
+  background: blue;
+}
+.social ul li .icon-github {
+  background: black;
+}
+.social ul li .icon-whatsapp {
+  background: green;
+}
+.social ul li .icon-youtube {
+  background: red;
 }
 
-	.social ul {
-		list-style: none;
-	}
-
-	.social ul li a {
-		display: inline-block;
-		color:#fff;
-		background: #000;
-        padding: 10px 15px;
-        margin-right: 50px;
-		text-decoration: none;
-		-webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
-	}
-
-	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
-	.social ul li .icon-twitter {background: #00abf0;}
-	.social ul li .icon-googleplus {background: #d95232;}
-	.social ul li .icon-pinterest {background: #ae181f;}
-	.social ul li .icon-mail {background: #666666;}
-
-	.social ul li a:hover {
-		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
-		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
-    }
- 
+.social ul li a:hover{
+  padding: 10px  30px;
+  background: black;
+}
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {
     .row {
